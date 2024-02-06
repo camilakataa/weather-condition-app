@@ -20,6 +20,7 @@ The user type the name of the city and the page gives the information about temp
 ## Link
 
 This is the link to see the project: <br>
+https://camilakataa.github.io/weather-condition-app/
 
 ## Screenshot
 
