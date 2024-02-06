@@ -1,0 +1,109 @@
+body {
+    background-color: #eeeeee;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #ffffff;
+    max-width: 330px;
+    height: 480px;
+    text-align: center;
+    background-image: url(../imagens/pexels-darius-krause-2470655.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 10px 50px;
+}
+
+.search {
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.search input {
+    background-color: rgba(70, 113, 136, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-shadow: 15px 18px 23px 0px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+::-webkit-input-placeholder {
+    color: #dbd8e3;
+ }
+
+.search .btn-search {
+    background-color: rgba(70, 113, 136, 0.5);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 15px 18px 23px 0px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+    padding: 5px 10px;
+}
+
+.btn-search:hover{
+    opacity: 0.5;
+}
+
+.search .magnifier {
+    width: 30px;
+    padding: 4px;
+    opacity: 0,8;
+}
+
+.principal-information {
+    margin: 30px;
+}
+
+.principal-information h1 {
+    font-size: 20px;
+}
+
+.principal-information .temperature {
+    font-size: 36px;
+    margin: 8px 0;
+}
+
+.principal-information .condition {
+    font-size: 20px;
+}
+
+.secondary-information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px 30px;
+}
+
+.secondary-information .humidity, .secondary-information .wind {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70px;
+    margin: 2px;
+    border-radius: 5px;
+    padding: 6px 8px;
+    background-color: rgba(70, 113, 136, 0.7);
+    opacity: 0.8;
+    box-shadow: 15px 18px 23px 0px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 320px) { 
+    .container {
+        max-width: 90vw;
+    }
+ }

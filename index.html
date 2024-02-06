@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather APP</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+
+</head>
+
+<body>
+    <main class="container">
+        <div class="search">
+            <input type="text" id="search-input" placeholder="Digite uma cidade">
+            <button class="btn-search">
+                <img class="magnifier" src="./src/imagens/lupa.png" alt="magnifier search">
+            </button>
+        </div>
+        <div class="principal-information">
+            <h1 id="city">Use a lupa acima para ver o clima em uma cidade</h1>
+
+            <p class="temperature" id="temperature"></p>
+
+            <img id="condition-icon" src="./src/imagens/116.webp" alt="weather icon">
+
+            <p class="condition" id="condition"></p>
+        </div>
+        <div class="secondary-information">
+            <div class="humidity">
+                <span>Humidade</span>
+                <span id="humidity">--</span>
+            </div>
+
+            <div class="wind">
+                <span>Velocidade do Vento</span>
+                <span id="wind">--</span>
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
