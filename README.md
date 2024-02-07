@@ -24,7 +24,7 @@ https://camilakataa.github.io/weather-condition-app/
 
 ## Screenshot
 
-<img src="./src/imagens/screen.gif" alt="screen">
+<img src="./src/images/screen.gif" alt="screen">
 
 ## Tools
 
